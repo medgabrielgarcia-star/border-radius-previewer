@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Radius Previewer</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="./src/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="title">Border Radius Previewer</h1>
+  </header>
+  <main class="preview">
+    <section class="preview-inputs">
+      <label for="border-top-right-radius">Top right border </label>
+        <input type="range" min="0" max="1000" id="border-top-right-radius" value="1" step="10">
+      <label for="border-top-left-radius">Top left border </label>
+        <input type="range" min="0" max="1000" id="border-top-left-radius" value="1" step="10">
+      <label for="border-bottom-right-radius">Bottom right border </label>
+        <input type="range" min="0" max="1000" id="border-bottom-right-radius" value="1" step="10">
+      <label for="border-bottom-left-radius">Bottom left border</label>
+        <input type="range" min="0" max="1000" id="border-bottom-left-radius" value="1" step="10">
+    </section>
+    <section class="preview-box">
+      <div id="box"></div>
+    </section>
+  </main>
+</body>
+</html>
