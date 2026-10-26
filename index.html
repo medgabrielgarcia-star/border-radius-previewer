@@ -13,17 +13,21 @@
   </header>
   <main class="preview">
     <section class="preview-inputs">
-      <label for="border-top-right-radius">Top right border </label>
-        <input type="range" min="0" max="100" id="border-top-right-radius" value="0" step="1">
       <label for="border-top-left-radius">Top left border </label>
-        <input type="range" min="0" max="100" id="border-top-left-radius" value="0" step="1">
+        <input type="range" min="0" max="200" id="border-top-left-radius" value="0" step="1" autocomplete="off">
+      <label for="border-top-right-radius">Top right border </label>
+        <input type="range" min="0" max="200" id="border-top-right-radius" value="0" step="1" autocomplete="off">
       <label for="border-bottom-right-radius">Bottom right border </label>
-        <input type="range" min="0" max="100" id="border-bottom-right-radius" value="0" step="1">
+        <input type="range" min="0" max="200" id="border-bottom-right-radius" value="0" step="1" autocomplete="off">
       <label for="border-bottom-left-radius">Bottom left border</label>
-        <input type="range" min="0" max="100" id="border-bottom-left-radius" value="0" step="1">
+        <input type="range" min="0" max="200" id="border-bottom-left-radius" value="0" step="1" autocomplete="off">
     </section>
     <section class="preview-box">
       <div id="box"></div>
+      <div class="preview-result">
+        <output class="resultado"></output>
+        <button class="btn" type="button">Copiar</button>
+      </div>
     </section>
   </main>
 </body>
